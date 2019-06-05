@@ -5,8 +5,8 @@ cmake_minimum_required (VERSION 3.8)
 
 project ("lb1")
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (lb1 "func.h" "task1.c" "task2.c" "task3.c" "task4.c" "task5_main.c" "task6_main.c" "task7_main.c")
+add_executable (lb1  "task1.c" "task2.c" "task3.c" "task4.c" "task5_main.c" "task6_main.c" "task7_main.c")
 
-target_include_directories ( lb1 task8_lib )
+target_link_libraries ( lb1 task8_lib )
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
