@@ -1,4 +1,6 @@
 #include"pch.h"
+#include <stdio.h>
+#include <math.h>
 
 //Âàðàèíò 9
 extern float x,y, res;
