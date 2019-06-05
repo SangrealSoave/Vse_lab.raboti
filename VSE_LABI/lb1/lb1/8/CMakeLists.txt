@@ -7,5 +7,5 @@ project ("lb1")
 # Добавьте источник в исполняемый файл этого проекта.
 add_library (lb1_8 lib STATIC "../task7_func.c")
 target_include_directories(lb1_8 lib PUBLIC "../task7_func.c")
-
+ 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
