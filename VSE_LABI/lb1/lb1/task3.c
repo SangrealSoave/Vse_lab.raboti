@@ -1,13 +1,13 @@
 #include"pch.h"
 #include <stdio.h>
 #include <math.h>
-//добавим прототип функции
+//Г¤Г®ГЎГ ГўГЁГ¬ ГЇГ°Г®ГІГ®ГІГЁГЇ ГґГіГ­ГЄГ¶ГЁГЁ
 float func(float x, float y);
 void main()
 {
 	float x = 2;
 	float y = 2;
-	float fxy = func1(x,y);
+	float fxy = func(x,y);
 	printf("x=%f\r\n", x);
 	printf("y=%f\r\n", y);
 	printf("f(x,y)=%f\r\n", fxy);
