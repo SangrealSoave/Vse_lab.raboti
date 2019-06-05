@@ -1,8 +1,8 @@
 #include"pch.h"
 #include <stdio.h>
 #include <math.h>
-#include "task5_func.c"
-//Вариант 9
+
+//Г‚Г Г°ГЁГ Г­ГІ 9
 void main5()
 {
 	float x = 2;
