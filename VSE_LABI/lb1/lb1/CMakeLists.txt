@@ -9,11 +9,11 @@ add_executable (lb1_1 "task1.c")
 add_executable (lb1_2 "task2.c")
 add_executable (lb1_3 "task3.c")
 add_executable (lb1_4 "task4.c")
-add_executable (lb1_5 "task5_main.c")
-add_executable (lb1_6 "task6_main.c")
-add_executable (lb1_7 "task7_main.c")
+add_executable (lb1_5 "task5_main.c" "task5_func.c")
+add_executable (lb1_6 "task6_main.c" "task6_func.c")
+add_executable (lb1_7 "task7_main.c" "task7_func.c")
 
-add_executable (lb1_8 "")
+add_executable (lb1_8 "task7_main.c")
 
 target_link_libraries ( lb1_8 lb1_8_lib.lib )
 
