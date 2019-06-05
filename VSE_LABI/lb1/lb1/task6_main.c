@@ -1,6 +1,6 @@
 #include"pch.h"
-#include "task6_func.c"
-//Вараинт 9
+
+//Г‚Г Г°Г ГЁГ­ГІ 9
 extern float x,y, res;
 extern void func();
 void main()
