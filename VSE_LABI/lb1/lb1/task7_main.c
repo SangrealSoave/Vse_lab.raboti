@@ -1,5 +1,5 @@
 #include"pch.h"
-#include "task7_func.c"
+
 #include"func.h"
 void main()
 {
