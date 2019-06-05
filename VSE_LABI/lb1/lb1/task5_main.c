@@ -3,7 +3,7 @@
 #include <math.h>
 
 //Âàðèàíò 9
-void main5()
+void main()
 {
 	float x = 2;
 	float y = 2;
