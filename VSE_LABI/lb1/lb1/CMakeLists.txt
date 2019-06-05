@@ -15,6 +15,6 @@ add_executable (lb1_7 "task7_main.c")
 
 add_executable (lb1_8 "")
 
-target_link_libraries ( lb1_8 task8_lib )
+target_link_libraries ( lb1_8 lb1_8_lib.lib )
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
