@@ -15,7 +15,7 @@ void main()
 	scanf_s("%f", &x);
 	printf("vvedite y:\t");
 	scanf_s("%f", &y);
-	fxy = func1(x, y);
+	fxy = func(x, y);
 	printf("f(x,y)=%f\r\n", fxy);
 	printf("finish\t");
 	system("pause");
