@@ -1,5 +1,6 @@
 #include"pch.h"
-
+#include <stdio.h>
+#include <math.h>
 #include"func.h"
 void main()
 {
